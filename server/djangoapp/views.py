@@ -145,3 +145,5 @@ def add_review(request, dealer_id):
             return redirect("djangoapp:dealer_details", dealer_id=dealer_id)
         else:
             return redirect("/djangoapp/login")
+
+    
